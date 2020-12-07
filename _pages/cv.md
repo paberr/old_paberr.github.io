@@ -11,49 +11,36 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Dr.-Ing. (PhD) in Computer Science, [Saarland University](https://uni-saarland.de), 2014–2018, Grade: summa cum laude
+
+    [Quantifying and Mitigating Privacy Risks in Biomedical Data](https://publikationen.sulb.uni-saarland.de/handle/20.500.11880/27145?locale=en)
+* Preparatory Phase, Graduate School, [Saarland University](https://uni-saarland.de), 2013–2014
+* B.S. in Computer Science, [Saarland University](https://uni-saarland.de), 2010–2013, Grade: A (1.1)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Oct 2020–: Lecturer in Computer Science, [University of Birmingham](https://birmingham.ac.uk)
+* Jun 2017–: Freelance Researcher & Consultant
+* Jun 2014–Mar 2018: Research Assistant, [CISPA](https://cispa.saarland)
   
-Skills
+Awards / Honors
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* 2019: **Dr. Eduard Martin-Award** for the best Ph.D. thesis in the category of mathematics and computer science, *Saarland University*.
+* 2019: **Distinguished Paper Award** for our paper *MBeacon: Privacy-Preserving Beacons for DNA Methylation Data*, *Network and Distributed Security Symposium (NDSS’19)*.
+* 2019: **Nomination: Deutscher Studienpreis**, one out of 10 nominees for the excellent thesis award, *Körber Stiftung*.
+* 2019: **Nomination: GI-Dissertationspreis**, one out of 28 nominees for the excellent thesis award, *German Informatics Society*.
+* 2013: **Graduate Scholarship**, *Saarland University*.
+* 2012: **Deutschlandstipendium**, *Germany Scholarship*.
+* 2011: **Saarland Scholarship**, *Studienstiftung Saar*.
 
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
+    
 Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
