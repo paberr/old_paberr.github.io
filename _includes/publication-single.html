@@ -1,0 +1,47 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <h3 class="archive__item-nonlink-title" itemprop="headline">{{ title }}</h3>
+    <p class="archive__publication_details">
+      {{ post.authors | markdownify | remove: "<p>" | remove: "</p>" }}<br/>
+      In <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
+      {% if post.paperurl %}
+      <a href="{{ post.paperurl }}" target="_blank" class="archive__btn_attachment">pdf</a>
+      {% endif %}
+      {% if post.arxiv %}
+      <a href="{{ post.arxiv }}" target="_blank" class="archive__btn_attachment">arxiv</a>
+      {% endif %}
+      {% if post.talk %}
+      <a href="{{ post.talk }}" target="_blank" class="archive__btn_attachment">talk</a>
+      {% endif %}
+      {% if post.slides %}
+      <a href="{{ post.slides }}" target="_blank" class="archive__btn_attachment">slides</a>
+      {% endif %}
+      {% if post.code %}
+      <a href="{{ post.code }}" target="_blank" class="archive__btn_attachment">code</a>
+      {% endif %}
+      {% if post.dataset %}
+      <a href="{{ post.dataset }}" target="_blank" class="archive__btn_attachment">dataset</a>
+      {% endif %}
+      {% if post.dataset %}
+      <a href="{{ post.dataset }}" target="_blank" class="archive__btn_attachment">dataset</a>
+      {% endif %}
+      {% if post.award %}
+      <br/><span class="archive__btn_award">{{ post.award }}</span>
+      {% endif %}
+    </p>
+  </article>
+</div>

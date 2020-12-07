@@ -29,7 +29,7 @@ publist = {
     "proceeding": {
         "file" : "proceedings.bib",
         "venuekey": "booktitle",
-        "venue-pretext": "In the proceedings of ",
+        "venue-pretext": "",
         "collection" : {"name":"publications",
                         "permalink":"/publication/"}
         
@@ -37,6 +37,13 @@ publist = {
     "journal":{
         "file": "pubs.bib",
         "venuekey" : "journal",
+        "venue-pretext" : "",
+        "collection" : {"name":"publications",
+                        "permalink":"/publication/"}
+    },
+    "collection":{
+        "file": "collections.bib",
+        "venuekey" : "booktitle",
         "venue-pretext" : "",
         "collection" : {"name":"publications",
                         "permalink":"/publication/"}
@@ -118,6 +125,9 @@ for pubsource in publist:
             md += """collection: """ +  publist[pubsource]["collection"]["name"]
 
             md += """\npermalink: """ + publist[pubsource]["collection"]["permalink"]  + html_filename
+
+            authors = [author.first_names[0]+" "+author.last_names[0] for author in bibdata.entries[bib_id].persons["author"]]
+            md += """\nauthors: '""" + ', '.join(authors) + "'"
             
             note = False
             if "note" in b.keys():

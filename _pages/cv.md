@@ -9,18 +9,19 @@ redirect_from:
 
 {% include base_path %}
 
+Dr Pascal Berrang is a Lecturer for the School of Computer Science, at the University of Birmingham.
+ His research interests are in the field of IT Security & Privacy with a focus on Health Data, Blockchain Technology, and Artificial Intelligence & Machine Learning.
+
 Education
 ======
-* Dr.-Ing. (PhD) in Computer Science, [Saarland University](https://uni-saarland.de), 2014–2018, Grade: summa cum laude
-
-    [Quantifying and Mitigating Privacy Risks in Biomedical Data](https://publikationen.sulb.uni-saarland.de/handle/20.500.11880/27145?locale=en)
+* Dr.-Ing. (PhD) in Computer Science, [Saarland University](https://uni-saarland.de), 2014–2018, Grade: summa cum laude<br>[Quantifying and Mitigating Privacy Risks in Biomedical Data](https://publikationen.sulb.uni-saarland.de/handle/20.500.11880/27145?locale=en)
 * Preparatory Phase, Graduate School, [Saarland University](https://uni-saarland.de), 2013–2014
 * B.S. in Computer Science, [Saarland University](https://uni-saarland.de), 2010–2013, Grade: A (1.1)
 
 Work experience
 ======
-* Oct 2020–: Lecturer in Computer Science, [University of Birmingham](https://birmingham.ac.uk)
-* Jun 2017–: Freelance Researcher & Consultant
+* Oct 2020–present: Lecturer in Computer Science, [University of Birmingham](https://birmingham.ac.uk)
+* Jun 2017–present: Freelance Researcher & Consultant
 * Jun 2014–Mar 2018: Research Assistant, [CISPA](https://cispa.saarland)
   
 Awards / Honors

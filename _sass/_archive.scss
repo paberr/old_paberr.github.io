@@ -48,6 +48,40 @@
   }
 }
 
+.archive__item-nonlink-title {
+  font-family: $sans-serif-narrow;
+  font-weight: bold;
+  color: rgb(0, 119, 181);
+}
+
+.archive__publication_details {
+  margin-top: 0em;
+}
+
+.archive__btn_attachment {
+  color: white;
+  background-color: lightseagreen;
+  padding: 1px 3px;
+  text-align: center;
+  border-radius: 4px;
+
+  &:hover {
+    background-color: #be4c49;
+  }
+}
+
+.archive__btn_award {
+  color: white;
+  background-color: tomato;
+  padding: 1px 3px;
+  text-align: center;
+  border-radius: 4px;
+
+  &:hover {
+    background-color: #4e9d4e;
+  }
+}
+
 /* remove border*/
 .page__content {
 
